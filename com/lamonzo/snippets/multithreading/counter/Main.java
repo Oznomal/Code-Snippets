@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
 
 /**
  * The purpose of this snippet is to simulate a situation where have a task (MyCallable)
- * 	which will have multiple instances submitted by an executor service, in most situations
+ * which will have multiple instances submitted by an executor service, in most situations
  * I will have a list of items which I would like to process and each MyCallable instance 
  * will be able to process 1 item from the list. I would then loop through the list of items
  * and call the task executor's submit method for each item in the list, passing it as an 
